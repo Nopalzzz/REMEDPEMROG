@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="428dp"
+        android:paddingBottom="80dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/macbookpro14" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:paddingBottom="10dp"
+        android:text="Macbook Pro 14"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Supercharge by M2 Pro or M2 Max, MacBook Pro takes its power and efficiency further than ever, it delivers exceptinals performance wheater it`s plugged in or not, and now has even longer battery safe. "
+        android:textColor="#A9A2A2"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delivery address"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$699.00"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="40sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            app:cornerRadius="10dp"
+            android:backgroundTint="#1842B1"
+            android:text="Add to cart"
+            />
+
+</LinearLayout>
+</LinearLayout>
